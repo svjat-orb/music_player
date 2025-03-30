@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* чтобы padding и border не увеличивали размер элемента */
+}
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+ul, ol {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-image: url(images/home_back_space.png);
+}
+
+.nav-list{
+    display: flex;
+    gap: 30px;
+}
