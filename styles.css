@@ -17,8 +17,9 @@ body{
     height: 100%;
     flex-direction: column;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 20px;
     line-height: 45px;
+    color: #ffffff;
 }
 
 ul, ol {
@@ -32,9 +33,68 @@ a {
 
 .header{
     background-image: url(images/home_back_space.png);
+    height: 1024px;
+    width: 1900px;
 }
 
 .nav-list{
     display: flex;
-    gap: 30px;
+    gap: 100px;
+    line-height: 25px;
+    align-items: center;
+}
+
+.top-nav{
+    display: flex;
+    padding-left: 265px;
+    padding-top: 47px;
+    gap: 300px;
+}
+
+.header-content{
+    display: flex;
+    gap: 490px;
+    width: 1900px;
+    justify-content: center;
+}
+
+.left-header-content{
+   padding-top: 150px;
+   display: flex;
+   flex-direction: column;
+   gap:120px;
+   height: 888px;
+}
+
+.right-header-content{
+    height: 888px;
+    position: relative;
+    width: 480px;
+    overflow: hidden;
+}
+
+.logotext{
+    font-family: "Kenia", sans-serif;
+    font-size: 150px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150px;
+}
+
+.founded-information-header{
+    line-height: 30px;
+}
+
+.smartphone{
+    position: absolute;
+}
+
+.cabel{
+    padding-top: 735px;
+    padding-left: 45px; 
+}
+
+.first-music-desktop{
+    background-color: #D53005;
+    width: 1900px;
 }
