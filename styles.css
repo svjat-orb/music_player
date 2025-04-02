@@ -94,7 +94,143 @@ a {
     padding-left: 45px; 
 }
 
-.first-music-desktop{
-    background-color: #D53005;
+#main{
     width: 1900px;
+}
+
+#first-music-desktop{
+    width: 1900px;
+    height: 1024px;
+    background-color: #D53005;
+}
+
+.menu-desktop{
+    display: block;
+    padding-left: 265px;
+    padding-top: 90px;
+    font-size: 30px;
+}
+
+.music-desktop-content{
+    display: flex;
+    width: 1900px;
+    padding-left: 265px;
+    margin-top: 60px;
+    gap: 255px;
+    height: 666px;
+}
+
+.music-dektop-menu{
+    display: block;
+    width: 382px;
+    padding-top: 225px;
+}
+
+.music-desktop-button-listen{
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(at top left, #B13E18, #F3501A);
+    color: #ffffff;
+    font-size: 35px;
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+
+.music-desktop-button-find{
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(at top left, #B13E18, #F3501A);
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 83px;
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+
+#second-about-desktop{
+    width: 1900px;
+    height: 1024px;
+    background-image: linear-gradient(#D53005, #000000 10%);
+}
+
+.second-about-desktop-content{
+    height: 890px;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-about-desktop-description{
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.third-store-desktop{
+    height: 1024px;
+    width: 1900px;
+    background-color: #D53005;
+    overflow: hidden;
+}
+
+.third-store-desktop-container{
+    position: relative;
+}
+
+.laptop-container-image{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 80px;
+}
+
+.third-store-desktop-container-menu{
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.black-button{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #020202;
+    color: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+
+.white-button{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #E3E3E3;
+    color: #000000;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 2px 5px 0px #000000;
+    margin-top: 40px;
+}
+
+.third-store-desktop-lastversion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 430px;
+}
+
+.white-bold-p{
+    font-weight: bold;
+}
+
+.white-tiny-p{
+    font-weight: 300;
+    text-align: center;
+    line-height: 25px;
+}
+
+.last-version-link{
+    color: #000000;
+
 }
