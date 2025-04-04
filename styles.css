@@ -22,6 +22,10 @@ body{
     color: #ffffff;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+  }
+
 ul, ol {
     list-style: none;
 }
@@ -34,7 +38,7 @@ a {
 .header{
     background-image: url(images/home_back_space.png);
     height: 1024px;
-    width: 1900px;
+    width: 1920px;
 }
 
 .nav-list{
@@ -54,7 +58,7 @@ a {
 .header-content{
     display: flex;
     gap: 490px;
-    width: 1900px;
+    width: 1920px;
     justify-content: center;
 }
 
@@ -95,11 +99,11 @@ a {
 }
 
 #main{
-    width: 1900px;
+    width: 1920px;
 }
 
 #first-music-desktop{
-    width: 1900px;
+    width: 1920px;
     height: 1024px;
     background-color: #D53005;
 }
@@ -113,11 +117,11 @@ a {
 
 .music-desktop-content{
     display: flex;
-    width: 1900px;
+    width: 1920px;
     padding-left: 265px;
     margin-top: 60px;
     gap: 255px;
-    height: 666px;
+    height: 680px;
 }
 
 .music-dektop-menu{
@@ -146,14 +150,14 @@ a {
 }
 
 #second-about-desktop{
-    width: 1900px;
+    width: 1920px;
     height: 1024px;
     background-image: linear-gradient(#D53005, #000000 10%);
 }
 
 .second-about-desktop-content{
     height: 890px;
-    width: 1900px;
+    width: 1920px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,9 +168,9 @@ a {
     font-size: 35px;
 }
 
-.third-store-desktop{
+#third-store-desktop{
     height: 1024px;
-    width: 1900px;
+    width: 1920px;
     background-color: #D53005;
     overflow: hidden;
 }
@@ -184,7 +188,8 @@ a {
 .third-store-desktop-container-menu{
     display: flex;
     position: absolute;
-    margin-top: 80px;
+    margin-top: 200px;
+    margin-left: 460px;
     flex-direction: column;
     align-items: center;
     gap: 40px;
@@ -232,5 +237,53 @@ a {
 
 .last-version-link{
     color: #000000;
+}
 
+footer{
+    height: 536px;
+    width: 1920px;
+    background-image: linear-gradient(#D53005, #000000 10%);
+}
+
+.footer-menu-container{
+    display: flex;
+    padding-top: 120px;
+    justify-content: right;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    height: 536px;
+}
+
+.footer-menu-store{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.footer-menu-label{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer-menu-item{
+    font-weight: lighter;
+}
+
+.footer-text-logo{
+    display: block;
+    font-family: "Kenia", sans-serif;
+    font-size: 35px;
+    width: 150px;
+    padding-left: 265px;
+    line-height: 35px;
+}
+
+.footer-description{
+    display: flex;
+    padding-left: 265px;
+    width: 1920px;
+    gap: 125px;
 }
